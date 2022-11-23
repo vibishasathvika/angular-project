@@ -10,11 +10,11 @@ export class ApiService {
   constructor(private api:HttpClient) { }
 
   getuser(){
-   return this.api.get('http://localhost:3000/users')
+   return this.api.get('https://dummyjson.com/users')
   }
   
 viewuser(userId:any){
-  return this.api.get('http://localhost:3000/users/'+userId)
+  return this.api.get('https://dummyjson.com/users/'+userId)
 }
 
 }

@@ -16,7 +16,8 @@ import { ViewlistComponent } from './viewlist/viewlist.component';
     ListdeatilsComponent,
     HeaderComponent,
     FooterComponent,
-    ViewlistComponent
+    ViewlistComponent,
+  
   ],
   imports: [
     BrowserModule,

@@ -10,6 +10,7 @@ const routes: Routes = [
   {
     path:'viewlist/:id',component:ViewlistComponent
   }
+  
 ];
 
 @NgModule({

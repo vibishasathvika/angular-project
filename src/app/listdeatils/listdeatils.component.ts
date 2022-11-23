@@ -7,16 +7,17 @@ import { ApiService } from '../services/api.service';
   styleUrls: ['./listdeatils.component.css']
 })
 export class ListdeatilsComponent implements OnInit {
-  userlist:any=[]
-
+  userlist:any
+ 
   constructor(private apiservice:ApiService) { }
 
   ngOnInit(): void {
     this.apiservice.getuser()
-    .subscribe((result)=>{
+    .subscribe((result:any)=>{
       //console.log(result);
-      this.userlist=result
-      console.log(this.userlist);
+      this.userlist=result.users
+      console.log(result.user);
+
       
       
     })
