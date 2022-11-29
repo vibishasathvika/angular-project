@@ -9,6 +9,9 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { FormsModule } from '@angular/forms';
 import { ViewlistComponent } from './viewlist/viewlist.component';
+import { AdduserComponent } from './adduser/adduser.component';
+import { UpdateuserComponent } from './updateuser/updateuser.component';
+import { DeleteuserComponent } from './deleteuser/deleteuser.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +20,9 @@ import { ViewlistComponent } from './viewlist/viewlist.component';
     HeaderComponent,
     FooterComponent,
     ViewlistComponent,
+    AdduserComponent,
+    UpdateuserComponent,
+    DeleteuserComponent,
   
   ],
   imports: [

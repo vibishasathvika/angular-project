@@ -1,0 +1,79 @@
+<form>
+    <div class="container mt-5 text-center  border border-dark bg-transparent mb-5 text-dark w-50" ><b><h3>ADD NEW USER </h3></b>
+       <div class="ms-5 me-5 mt-3">
+        <div>
+            <input [(ngModel)]="id" name="id"  type="text"  placeholder="id" class="form-control">
+        </div>
+        <br>
+        <div>
+            <input [(ngModel)]="image" name="image"  type="text"  placeholder="image" class="form-control">
+        </div>
+        <br>
+        <div>
+            <input [(ngModel)]="name" name="name"  type="text" placeholder="name" class="form-control">
+        </div>
+        <br>
+        <div>
+            <input [(ngModel)]="email" name="email" type="text" placeholder="email" class="form-control">
+        </div>
+        <br>
+        <div>
+            <input [(ngModel)]="password" name="password"  type="text" placeholder="password" class="form-control">
+        </div>
+        <br>
+       <div>
+            <input [(ngModel)]="age" name="age"  type="text" placeholder="age" class="form-control">
+        </div>
+        <br>
+        <div>
+            <input [(ngModel)]="contact" name="contact"  type="text" placeholder="contact" class="form-control">
+        </div>
+        <br>
+        <div>
+            <input [(ngModel)]="bloodGroup" name="bloodGroup"  type="text" placeholder="blood Group" class="form-control">
+        </div>
+        <br>
+        <div>
+            <input [(ngModel)]="Address" name="Address"  type="text" placeholder="Address" class="form-control">
+        </div>
+        
+        
+         <br>
+         <div>
+        <input [(ngModel)]="Department" name="Department"  type="text" placeholder="Department" class="form-control">
+        </div>
+        <br>
+        <div>
+            <h2>Bank Details</h2>
+        </div>
+        <br>
+        <div>
+        <input [(ngModel)]="cardExpire" name="cardExpire"  type="text" placeholder="cardExpire" class="form-control">
+        </div>
+        <br>
+        <div>
+            <input [(ngModel)]="cardNumber" name="cardNumber"  type="text" placeholder="cardNumber" class="form-control">
+            </div>
+            <br>
+            <div>
+                <input [(ngModel)]="cardType" name="cardType"  type="text" placeholder="cardType" class="form-control">
+                </div>
+                <br>
+                <div>
+                    <input [(ngModel)]="currency" name="currency"  type="text" placeholder="currency" class="form-control">
+                    </div>
+                    <br>
+                    <div>
+                        <input [(ngModel)]="iban" name="iban"  type="text" placeholder="iban" class="form-control">
+                        </div>
+                        <br>
+       
+        <button (click)="adduser()"  class="btn btn-info">Add User</button>
+       </div>
+    </div>
+       <br><br>
+    
+
+
+</form>
+
